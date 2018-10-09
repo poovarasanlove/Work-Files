@@ -14,7 +14,7 @@ font-family: 'Great Vibes', cursive;
 
 #footer{
     font-size: 20px;
-        color: beige;
+    color: beige;
     text-align: center  ;
     font-family: 'Great Vibes', cursive;
     position: fixed;
@@ -81,7 +81,7 @@ cursor: pointer;
     border: 1px black solid  ;
     width: 81.33px;
     height: 73.25px;
-cursor:pointer;
+    cursor:pointer;
 }
 .sbt:hover{
     background: rgb(255, 255, 255);
