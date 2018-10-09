@@ -12,7 +12,9 @@ function clr(){
 }
 function dot()
 {
-    
+    if(dis.innerHTML.includes('.')==false){
+        dis.innerHTML +='.';
+}
 }
 var num1;
 var operation;
