@@ -10,12 +10,6 @@ function num(val){
 function clr(){
     dis.innerHTML="0";
 }
-function dot()
-{
-    if(dis.innerHTML.includes('.')==false){
-        dis.innerHTML +='.';
-}
-}
 var num1;
 var operation;
 
