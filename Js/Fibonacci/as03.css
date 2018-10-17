@@ -1,5 +1,7 @@
  body{
+     font-weight: bold; 
     background: rgb(255, 38, 0); 
+    font-family: 'Srisakdi', cursive;
   
     margin: 0%;
  }
@@ -16,9 +18,18 @@
  #hd{
     width: 100%;
     background: rgb(20, 74, 99);
-    height: 100px;
+    height: 86px;
+    color: #E74C3C;
+    padding: 8px 0px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 72px;
+    text-align: center;
 }
 button{
+    font-family: 'Shadows Into Light', cursive;
+padding: 4px 15px;
+font-size: 20px;
     border-radius: 5px;
     text-transform: capitalize;
     color: rgb(49, 16, 0);
@@ -39,8 +50,8 @@ button{
     padding: 10px;
     overflow: scroll;
     position: absolute;
-    top: 107px;
-    left: 715px;
+    top: 100px;
+    left:700px;
     height: 480px;
     width: 580px;
     background-color: aliceblue;
