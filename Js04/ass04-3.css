@@ -1,0 +1,29 @@
+button{
+    margin: 10px;
+    margin-left: 80px;
+    height: 50px;
+    width: 100px;
+}
+input{
+    margin-left: 80px;
+    height: 30px;
+    width: 250px;
+}
+#bd{
+    opacity: .5;
+    background: rgb(99, 237, 255);
+    padding: 50px;
+    height: 300px;
+    width: 470px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+#dis{
+    opacity: .5;
+    border-radius: 10px;
+    position: relative;
+    left: 80px;
+    background: rgb(164, 255, 184);
+    height: 100px;
+    width: 300px;
+}
