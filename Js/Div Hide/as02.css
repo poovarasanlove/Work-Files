@@ -1,0 +1,143 @@
+body{
+    margin: 0%;
+    background: rgb(241, 124, 28);
+}
+#t{
+    text-align: center;
+    font-family: cursive;
+    color: turquoise;
+    transform: rotate(45deg);
+    font-size: 70PX;
+    position: absolute;
+    z-index: 2;
+    top: 250px;
+    left: 650px;
+}
+#t1{
+    text-align: center;
+    font-family: cursive;
+    color: chartreuse;
+    transform: rotate(45deg);
+    font-size: 30PX;
+    position: absolute;
+    z-index: 2;
+    top: 1080px;
+    left: 60px;
+}
+#t3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 23, 23);
+    transform: rotate(45deg);
+    font-size: 30PX;
+    position: absolute;
+    z-index: 2;
+    top: 400px;
+    left: 550px;
+}
+.s{
+    position: relative;
+    z-index: 4;
+    height:250px ;
+    width:250px ;
+    border-radius: 50%;
+}
+#hoi2{
+    position: absolute;
+    top: 250px;
+    height:1000px ;
+    width:1000px ;
+    overflow: hidden;
+    transform: rotate(180deg);
+
+}
+#hd2{
+    position: absolute;
+    top: -150px;
+    left: 124PX;
+    width: 0px;
+    height: 0px;
+    border-top: 1000px solid rgb(255, 174, 0); 
+    border-left: 1000px solid transparent ; 
+    border-right: 1000px solid transparent ; 
+    transform: rotate(-135deg);
+}
+#hoi{
+    position: absolute;
+    left: 349px;
+    height:1100px ;
+    overflow: hidden;
+    width:1000px ;
+
+}
+#hd{
+    position: absolute;
+    top: -220px;
+    left: 80PX;
+    width: 0px;
+    height: 0px;
+    border-top: 1450px solid rgb(255, 187, 0); 
+    border-left: 1450px solid transparent ; 
+    border-right: 1450px solid transparent ; 
+    transform: rotate(-135deg);
+}
+.s1s{
+    text-align: center;
+    font-size: 72px;
+    position: absolute;
+    padding: 75px;
+    height:100px ;
+    width:100px ;
+    border-radius: 50%;
+}
+#s1s{
+    transform: translate(0px,-250px);
+    background: rgb(255, 171, 156);
+}
+#s2s{
+    transform: translate(250px,-250px);
+    background: rgb(219, 133, 118);
+}
+#s3s{
+    transform: translate(500px,-250px);
+    background: rgb(255, 107, 81);
+}
+#s4s{
+    transform: translate(750px,-250px);
+    background: rgb(255, 49, 13);
+}
+#s5s{
+    transform: translate(1000px,-250px);
+    background: rgb(209, 31, 0);
+}
+#s1{
+  
+    background: tomato;
+
+}
+#s2{
+    transform: translate(250px,0px);
+  
+    background: rgb(212, 117, 100);
+}
+#s3{
+    transform: translate(500px,0px);
+  
+    background: rgb(102, 26, 13);
+}
+#s4{
+    transform: translate(750px,0px);
+  
+    background: rgb(165, 114, 105);
+}
+#s5{
+    transform: translate(1000px,0px);
+    
+    background: rgb(255, 138, 117);
+}
+
+
+
+
+
+
