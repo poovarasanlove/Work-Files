@@ -1,6 +1,7 @@
 var n=document.getElementById('in');
 function get(){
-    document.getElementById('res').innerHTML
+  var b;
+    document.getElementById('res').innerHTML=b.value;
     gt(b);
     
 }
@@ -18,5 +19,6 @@ return z;
 }
 function clr(){
 document.getElementById('res').innerHTML="";
+document.getElementById('in').value="";
 
 }

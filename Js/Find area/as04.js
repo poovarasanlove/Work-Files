@@ -37,7 +37,7 @@ function sub(){
     if(op=='cir')
     {
       var c1= +document.getElementById('c1').value;
-      document.getElementById('area').innerHTML= 3.14*c1*c1 +' cm is area of circle' ;
+      document.getElementById('area').innerHTML= 3.14159*(c1*c1) +' cm is area of circle' ;
     }
     if(op=='tri')
     {
