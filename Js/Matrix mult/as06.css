@@ -1,0 +1,133 @@
+body{
+    margin: 0%;
+    font-family: 'Inconsolata', monospace;
+
+}
+#d1{
+    font-family: 'Orbitron', sans-serif;
+    height: 100px;
+    width: 100%;
+    background: rgba(39, 97, 145, 0.623);
+    text-align: center;
+    font-size: 72px;
+    font-weight: bold;
+  
+}
+#d2{
+    height: 495px;
+    width: 100%;
+}
+#d3{
+    position: relative;
+    border-radius: 10px;
+    left: 0px;
+    top: 15px;
+    float: left;
+    margin: 40px;
+    height: 400px;
+    width: 500px;
+}
+.l{
+    position: absolute;
+    font-size: 40px;
+    top: 70px;
+    margin: 10px;
+    left: 50px;;
+}
+#l1{
+    top: 245px;
+}
+.in{
+    position: relative;
+    left: 250px;
+    top: 15px;
+    margin-top: 6px;
+    
+    height: 170px;
+    width: 170px;
+    background: rgb(241, 239, 239);
+    border-radius: 5px;
+}
+input{
+    position: relative;
+    left: 5px;
+    top: 2px;
+    float: left;
+    width: 43px;
+    margin: 5px;
+    height: 43px;
+    text-align: center;
+    border: 0ch;
+    border-radius: 5px;
+
+}
+#d4{
+    font-family: 'Pacifico', cursive;
+    position: relative;
+    left: 180px;
+    margin: 20px;
+    top: 28px;
+    float: left;
+    border-radius: 10px;
+    background: rgba(190, 255, 165, 0.849);
+    height: 400px;
+    width: 500px;
+    text-align: center;
+}
+#res{
+    position: relative;
+    top: 90px;
+    left: 100px;
+    height: 300px;
+    width: 300px;
+    background: rgb(255, 102, 0);
+    
+    border-radius:5px;
+
+}
+#hd{
+    font-size: 70px;
+position: absolute;
+left: 94px;
+top: -20px;
+text-decoration: underline;
+}
+
+.box{
+    position: relative;
+    font-size: 40px;
+    top: 8px;
+    border-radius: 5px;
+    left: 7px;
+    height: 85px;
+    width: 85px;
+    background: rgb(255, 255, 255);
+    float: left;
+    margin: 5px;
+}
+#d5{
+    padding: 30px 0px; 
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    background: #7986CB;
+    font-family: 'Pacifico', cursive;
+}
+button{
+    position: absolute ;
+    outline: none;
+    border: 0px; 
+    height: 50px;
+    width: 100px;
+left: 560px;
+border-radius: 5px;
+top: 288px;
+text-align: center;
+text-transform: capitalize;
+font-weight: bold;
+font-size: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#cop{
+    top:354px;
+}
