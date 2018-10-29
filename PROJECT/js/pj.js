@@ -395,11 +395,3 @@ function enba() {
 
   }
 }
-
-function sent()
-{
-if()
-
-
-}
-
