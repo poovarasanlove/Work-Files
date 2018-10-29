@@ -1,0 +1,136 @@
+body{
+    background-image:url("back3.jpg");
+    background-size: 1367px 700px;
+    background-repeat: no-repeat;
+    height: 700px;
+    overflow: hidden;
+}
+
+@font-face{
+    font-family: monotype;
+    src: url(MetalMacabre.ttf);
+    
+}
+h1 {
+    position: relative;
+    font-size: 30px;
+    letter-spacing: 50px;
+    padding-top: 25px;
+    margin: 0%;
+    font-family: monotype;
+    text-shadow: 2px 2px 5px rgb(248, 117, 108);
+  }
+  @font-face{
+    font-family: buff;
+    src: url(fabada.regular.ttf);
+    
+}
+input{
+    font-family:buff;
+    color: aqua;
+    text-transform: lowercase;
+    outline: none;
+    text-align: center;
+    height:30px;
+    margin: 20px 0px;
+    font-size: 20px;
+    width: 350px;
+    border: 0px ;
+    border-bottom: 1px solid ;
+    background: rgba(241, 244, 242, 0);
+    padding-top: 10px;
+    padding-bottom: 30px;
+    
+}
+#d3{
+    float: left;
+    background-image: url("t.png");
+    opacity: .6;
+    background-repeat: no-repeat;
+    position: relative;
+    transform: rotate(335deg);
+    height: 628px;
+    z-index: 5000;
+ 
+}
+#d5{
+    float: left;
+}
+@font-face{
+    font-family:k ;
+    src: url(KEL.ttf);
+}
+#bt:active{
+    background: rgb(113, 212, 37);
+}
+#bt{
+    float: left;
+    background: #83F52C;
+    font-family: k;
+    box-shadow: 5px 0px 30px aqua, -5px 0px 30px aqua;   
+    letter-spacing: 4px;
+    outline: none;
+    border: 0px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+input::placeholder{
+    color: #ECEFF1;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: qg;
+    font-weight: bold;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    text-align: center;
+
+}
+@font-face{
+    font-family: qg;
+    src: url(QG.ttf);
+}
+#d1{
+    text-align: center;
+    background:#32CD99;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom-left-radius: 25px; 
+    border-bottom-right-radius: 25px; 
+    border-bottom: 5px double;
+    color: #7CFC00;
+    background-image: linear-gradient( rgba(140, 185, 35, 0.89),rgba(0, 255, 255, 0.671));
+
+}
+#d2{
+    float: left;
+    position: relative;
+    top: 70px;
+    padding: 50px;
+}
+@font-face{
+    font-family: met;
+    src: url(MetalMacabre.ttf);
+}
+#d6{
+    color: #4FC8A7;
+    position: relative;
+    top:200px;
+    font-family: met;
+    font-style: italic;
+    opacity: .6;
+    z-index: 5;
+    font-size: 60px;
+    letter-spacing: 20px;
+    display: none;
+}
+#d5{
+    position: absolute;
+    top: 570px;
+    text-transform:capitalize; 
+    color: azure;
+    font-family: 'Times New Roman', Times, serif;
+    display: none;
+
+}
