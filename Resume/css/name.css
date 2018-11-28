@@ -1,0 +1,204 @@
+body{
+    margin: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: black;
+   }
+   hr{
+position: relative;
+left: 680px;
+top: -65px;
+
+border: 0;
+        height: 55px;
+        background-image: url(image/type1.png);
+        background-size: 350px;
+        background-repeat: no-repeat;
+        
+   }
+   @font-face{
+       font-family: kel;
+       src: url('font/KEL.ttf');
+   }
+   h1{
+       font-family: kel;
+       padding: 0px 0px;
+       font-size: 35px;
+       margin-top: 50px;
+   }
+   
+   h2{
+    position: relative;
+    left: 180px;
+    top: -20px;
+     color: black;
+     font-family: fab;
+     font-size: 52px;
+     text-align: center;
+ 
+ }
+ @font-face{
+     font-family: rub;
+     src: url('font/Rubik-Italic.ttf');
+ }
+   h3{
+     font-family: rub;
+     padding: 10px;
+       display: inline;
+       
+   }
+   h4{
+       margin: -5px 0px 0px 0px;
+     font-family: rub;
+       
+   }
+ul{
+    list-style-type: none;
+}
+#d1{
+    position: fixed;
+    left: 0%;
+    background: rgb(255, 114, 32);
+    height: 694px;
+    width: 300px;
+}
+#i{
+    background-image: url('image/pic.jpg');
+    border-radius: 50%;
+    background-size: 250px;
+    height: 250px;
+    width: 250px;
+    position: relative;
+    top: 30px;
+    left: 25px;
+}
+@font-face{
+    font-family: mono;
+    src: url('font/monotype\ corsiva.ttf');
+}
+#name{
+    position: relative;
+    top: 260px;
+    left: 10px;
+    color: white;
+    font-family: mono;
+    font-size: 32px;
+}
+button:hover{
+    border-bottom:4px  dashed  rgb(0, 183, 255);
+}
+button{
+    position: relative;
+    top: 330px;
+    background: #ff7220;
+    border: none;
+    border-bottom:1px  solid white;
+    font-size: 22px;
+    outline: none;
+    height: 50px;
+    width: 250px;
+    margin: 10px 0px;  
+    -webkit-transition:border .2s;
+    transition: border .2s; 
+}
+
+@font-face{
+    font-family: fab;
+    src: url('font/fabada.regular.ttf');
+}
+
+#d2{
+    width: 100%;
+    height: 694px;
+    background-image: url('image/code1.jpg');
+   background-position: 300px;
+    background-repeat: no-repeat;
+    background-size: 1050px 695px;
+
+}
+@font-face{
+    font-family: ang;
+    src: url('font/TextMeOne-Regular.ttf');
+}
+#t{
+    position: absolute;
+    left: 450px;
+    top: 250px;
+font-family: ang;
+font-weight: bold;
+    color: white;
+    font-size: 100px;
+}
+@font-face{
+    font-family: source;
+    src: url('font/SourceCodePro-Light.ttf');
+}
+.con{
+    position: relative;
+    left: 400px;    
+    font-family: source;
+    top: -120px;
+    font-weight:bold;
+    width: 930px;
+    font-size: 20px;
+}
+.i{
+    width: 20px;
+    height: 20px;
+    margin-top: 6px;
+}
+#i1{
+    background-image: url('font/add.png');
+    background-size: 20px;
+        position: absolute;
+        left: 10px;
+    z-index: 10px;
+}
+#i2{
+    background-image: url('font/cell.png');
+    background-size: 20px;
+        position: absolute;
+        left: 10px;
+    z-index: 10px;
+}
+#i3{
+    background-image: url('font/mail.png');
+    background-size: 20px;
+        position: absolute;
+        left: 10px;
+    z-index: 10px;
+}
+#d3{
+    width: 100%;
+    height: 694px;
+    overflow: hidden;
+}
+#d4{
+    overflow: hidden;
+    width: 100%;
+    height: 694px;
+}
+#d5{
+    overflow: hidden;
+    width: 100%;
+    height: 694px;
+}
+#d6{
+    overflow: hidden;
+    width: 100%;
+    height: 694px;
+    text-align: center;
+}
+#od{
+    position: relative;
+    left: 600px;
+    font-family: source;
+font-weight: bolder;
+    font-size: 26px;
+    width: 500px;
+    height: 500px;
+}
