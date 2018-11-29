@@ -89,7 +89,7 @@ ul{
     font-size: 32px;
 }
 button:hover{
-    border-bottom:4px  dashed  rgb(0, 183, 255);
+    border-bottom:4px  dashed whitesmoke;
 }
 button{
     position: relative;
@@ -149,28 +149,58 @@ font-weight: bold;
 .i{
     width: 20px;
     height: 20px;
-    margin-top: 6px;
+    margin-top: 5px;
+    background-size: 20px;
+    position: absolute;
+    left: 10px;
 }
 #i1{
     background-image: url('font/add.png');
-    background-size: 20px;
-        position: absolute;
-        left: 10px;
-    z-index: 10px;
+    
 }
 #i2{
     background-image: url('font/cell.png');
-    background-size: 20px;
-        position: absolute;
-        left: 10px;
-    z-index: 10px;
+   
 }
 #i3{
     background-image: url('font/mail.png');
-    background-size: 20px;
-        position: absolute;
-        left: 10px;
-    z-index: 10px;
+    
+}
+#i4{
+    background-image: url('image/gym.png');
+    
+}
+#i5{
+    background-image: url('image/music.png');
+   
+}
+#i6{
+    background-image: url('image/think.png');
+    
+}
+#i7{
+    background-image: url('image/angular.png');
+    
+}
+#i8{
+    background-image: url('image/firebase.png');
+    
+}
+#i9{
+    background-image: url('image/bootstrap.png');
+    
+}
+#i10{
+    background-image: url('image/communication.png');
+    
+}
+#i11{
+    background-image: url('image/flex.png');
+    
+}
+#i12{
+    background-image: url('image/creativity.png');
+    
 }
 #d3{
     width: 100%;
@@ -195,10 +225,10 @@ font-weight: bold;
 }
 #od{
     position: relative;
-    left: 600px;
+    left: 440px;
     font-family: source;
 font-weight: bolder;
     font-size: 26px;
-    width: 500px;
+    width: 800px;
     height: 500px;
 }
